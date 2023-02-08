@@ -1,0 +1,31 @@
+{
+  "name": "makerken-website",
+  "version": "1.0.0",
+  "description": "makerken.com website source",
+  "main": "index.html",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/makerken/makerken-website.git"
+  },
+  "keywords": [
+    "website"
+  ],
+  "author": "Ken Kaiser",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/makerken/makerken-website/issues"
+  },
+  "homepage": "https://github.com/makerken/makerken-website#readme",
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.45",
+    "vue": "^3.2.47"
+  },
+  "dependencies": {
+    "vitepress-plugin-auto-sidebar": "^1.0.6"
+  }
+}
